@@ -7,23 +7,23 @@
 
 int main(void)
 {   //ОБЪЯВЛЕНИЕ ПЕРЕМЕННЫХ
-	double x1, s1, s2, s3, s4, s5, si6, s8, y1; 
+	double x1, s1, s2, s3, s4, si5, si6, s8, y1; 
 	scanf_s("%lf", &x1);//ВВОД x1
 	//ПРОМЕЖУТОЧНЫЕ ВЫЧИСЛЕНИЯ
 	s1 =pow(x1, 2);
 	s2 = x1;
 	s3 = 1 / s1;
 	s4 = fabs(x1 - s3);
-	s5 = cos(x1);
+	si5 = cos(x1);
 	si6 = log(fabs((tan(x1) - x1)));
-	s8 = s5 / si6;
+	s8 = si5 / si6;
 	y1 = s4 - s8;
 	//ВЫВОД РЕЗУЛЬТАТОВ ПРОМЕЖУТОЧНЫХ ВЫЧИЛЕНИЙ ДЛЯ ПРОВЕРКИ ПРАВИЛЬНОСТИ РЕШЕНИЯ
 	printf("s1=%lf   ", s1);
 	printf("s2=%lf   ", s2);
 	printf("s3=%lf   ", s3);
 	printf("s4=%lf   ", s4);
-	printf("s5=%lf   ", s5);
+	printf("si5=%lf   ", si5);
 	printf("si6=%lf   ", si6);
 	printf("s8=%lf   ", s8);
 	//ВВЫВОД y1
