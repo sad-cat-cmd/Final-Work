@@ -1,1 +1,2 @@
-﻿  lab01.vcxproj -> C:\Users\B-ZONE\Desktop\progC\lab01\x64\Debug\lab01.exe
+﻿  lab01.cpp
+C:\Users\Марина\Desktop\it_v_pd\6_Z\LR10\Final-Work\lab01\lab01.cpp : error C1051: формат файла базы данных программы "C:\Users\Марина\Desktop\it_v_pd\6_Z\LR10\Final-Work\lab01\x64\Debug\vc143.pdb" устарел, удалите файл и повторите компиляцию
